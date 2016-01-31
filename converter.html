@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Diego Casas Arcega - COMP519</title>
+    <meta name="description" content="My assignment" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+    <div class="container text-center">
+        <h2>Javascript</h2>
+        <div class="main-menu">
+            <ul class="list-inline list-unstyled">
+                <li><a href="converter.html">Currency Converter</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="palindrome.html">Palindrome</a></li>
+                <li><a href="rateme.html">Rate me!</a></li>
+            </ul>
+        </div>
+
+        <div class="container col-lg-5 text-left col-md-offset-3">
+            <h1>Currency converter</h1>
+            <p>Insert the amount in any currency field and have all others currencies converted</p>
+            <form action="">
+                <div class="form-group">
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="usd" value="0"/>
+                        <div class="input-group-addon">USD</div>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="gbp" value="0"/>
+                        <div class="input-group-addon">GBP</div>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="cad" value="0"/>
+                        <div class="input-group-addon">CAD</div>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="eur" value="0"/>
+                        <div class="input-group-addon">EUR</div>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="aud" value="0"/>
+                        <div class="input-group-addon">AUD</div>
+                    </div>
+                </div>
+
+            </form>
+
+            <div class="text-center">
+                <hr />
+                <ul class="list-inline list-unstyled">
+                    <li><a href="http://www.liv.ac.uk/" onclick="target='_blank';">University of Liverpool</a>
+                    </li>
+                    <li><a href="http://cgi.csc.liv.ac.uk/~martin/teaching/comp519/" onclick="target='_blank';">COMP519</a>
+                    </li>
+                </ul>
+                <p>
+                    <img src="images/logo.png" alt="University of Liverpool logo" />
+                </p>
+                <p>
+                    <a href="http://validator.w3.org/check?uri=referer">
+                        <img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" />
+                    </a>
+                </p>
+                <p id="fortune-text" class="col-lg-12 img-rounded bg-primary"></p>
+                <p id="last-modified"></p>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+    <script type="text/javascript" src="js/fortune-generator.js"></script>
+    <script type="text/javascript" src="js/currency-converter.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
